@@ -1,0 +1,112 @@
+body{
+  background-color: rgba(255, 255, 255, 0.8);
+  
+}
+section.pricing {
+   
+  }
+  
+  .pricing .card {
+    background-color: rgb(255, 255, 255,0.9);
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 100%;
+    max-width: 180px ;
+    max-height:180px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .line-clamp p{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
+  .het{
+    max-height: 100%;
+    height: 80vh;
+  }
+
+ .archive{
+   text-decoration: none;
+   transform: rotate(-90deg);
+          transform-origin: left top 0; 
+          color: white; 
+ }
+
+ .archive:hover{
+   text-decoration: none;
+ }
+ @media (max-width: 600px)
+ {
+   .archive{
+  z-index: 1;
+  color: black;
+   }
+ }
+ .vf{
+   text-decoration: none;
+ }
+ .vf:hover{
+   text-decoration: none;
+ }
